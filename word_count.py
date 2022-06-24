@@ -8,7 +8,7 @@ import collections
 file=open('98-0.txt', encoding="utf8")
 
 # if you want to use stopwords, here's an example of how to do this
-# stopwords = set(line.strip() for line in open('stopwords'))
+stopwords = set(line.strip() for line in open('stopwords'))
 
 # create your data structure here.  F
 wordcount={}
